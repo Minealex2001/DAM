@@ -1,0 +1,5 @@
+package org.iesalvarofalomir.calc;
+
+public class CalculadoraSimple {
+
+}

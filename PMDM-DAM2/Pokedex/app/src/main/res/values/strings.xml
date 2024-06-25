@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="base_stats">Puntos de base</string>
+    <string name="hp">HP</string>
+    <string name="atk">ATK</string>
+    <string name="def">DEF</string>
+    <string name="spd">SPD</string>
+    <string name="exp">EXP</string>
+    <string name="items">Items</string>
+    <string name="movementLbl">Movement</string>
+    <string name="accuracyLbl">Accuracy</string>
+    <string name="pokemonList">Pokemon</string>
+    <string name="nombreItemLbl">Nombre</string>
+    <string name="categoriaItemLbl">Categoría</string>
+    <string name="costeItemLbl">Coste</string>
+    <string name="EfectosItemLbl">Efectos</string>
+</resources>

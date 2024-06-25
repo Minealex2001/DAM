@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExamenFinal</string>
+    <string name="movementLbl">Movement</string>
+    <string name="accuracyLbl">Accuracy</string>
+    <string name="pokemonList">Pokemon</string>
+    <string name="nombreItemLbl">Nombre</string>
+    <string name="categoriaItemLbl">Categoría</string>
+    <string name="costeItemLbl">Coste</string>
+    <string name="EfectosItemLbl">Efectos</string>
+</resources>

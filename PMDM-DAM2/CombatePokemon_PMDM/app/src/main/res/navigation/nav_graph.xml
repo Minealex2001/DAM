@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.alejandro.combatepokemon.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+    </fragment>
+    <fragment
+        android:id="@+id/combate"
+        android:name="com.alejandro.combatepokemon.combate"
+        android:label="fragment_combate"
+        tools:layout="@layout/fragment_combate" />
+    <fragment
+        android:id="@+id/pokemonView"
+        android:name="com.alejandro.combatepokemon.pokemon.PokemonView"
+        android:label="fragment_agregarpokemon"
+        tools:layout="@layout/fragment_agregarpokemon" />
+
+</navigation>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Play Juegos</string>
+    <string name="jugar">Play</string>
+    <string name="nuevojugador">New Player</string>
+    <string name="ajustes">Preferencies</string>
+    <string name="sobre">About</string>
+    <string name="nombre">Name</string>
+    <string name="nombrefonetico">Phonetic Name</string>
+    <string name="apodo">Nickname</string>
+    <string name="telefono">Phone</string>
+    <string name="email">Email</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="todo">TODO</string>
+    <string name="radiant_defense">Radiant Defense</string>
+    <string name="angry_birds">Angry Birds</string>
+    <string name="dragon_fly">Dragon Fly</string>
+    <string name="hill_climbing_racing">Hill Climbing Racing</string>
+    <string name="radiant_defence">Radiant Defence</string>
+    <string name="pocket_soccer">Pocket Soccer</string>
+    <string name="ninja_jump">Ninja Jump</string>
+    <string name="ari_control">Air Control</string>
+    <string name="plataformas">Plataformas</string>
+    <string name="ps4">PS4</string>
+    <string name="pc">PC</string>
+    <string name="xbox">Xbox</string>
+    <string name="wii">WII</string>
+    <string name="wiiu">WII U</string>
+    <string name="n3ds">3DS</string>
+    <string name="x360">Xbox 360</string>
+    <string name="generos">Generos</string>
+</resources>

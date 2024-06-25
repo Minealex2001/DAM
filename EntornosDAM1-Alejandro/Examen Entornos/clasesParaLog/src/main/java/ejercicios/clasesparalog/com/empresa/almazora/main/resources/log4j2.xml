@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    
+    <!-- Variables -->
+    <Properties>
+     <property name="autor">Steve Jobs</property>
+     <property name="rutaLogs">misLogs</property> 
+    </Properties>
+  
+       
+    <!-- Definición Appenders -->     
+    <Appenders>
+        <Console name="miConsola" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{AAAA-MM-DD HH:mm:ss.SSS} [%t] %-5p %c - %msg%n"/>
+        </Console>
+
+        <File name="fichero" fileName="fichero/miLog.log" append="rootLogger">
+            <PatternLayout pattern="%d{AAAA-MM-DD HH:mm:ss.SSS} [%t] %-5p %c - %msg%n"/>
+        </File>
+
+        <RollingFile name="holaBebe" fileName="${rutaLogs}/fichRotativoTiempo/" filePattern="${misLogs}/$${dd-MM-hh-mm}/logTiempo.log">
+            <PatternLayout pattern="%d{AAAA-MM-DD HH:mm:ss.SSS} [%t] %-5p %c - %msg%n"/>
+            <Policies>
+                <TimeBasedTrigeringPolicy interval="5"/>
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+  
+    <!-- Definición Loggers -->  
+    <Loggers>  
+        <Logger name="com.empresa.almazora.main" level="warn">
+            <AppenderRef ref="miConsola"/>
+        </Logger>
+
+        <Root level="warn">
+            <AppenderRef ref="fichero"/>
+        </Root>
+    </Loggers>
+	
+</Configuration>

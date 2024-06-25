@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+G:\Mi unidad\DAM\Programacion\Tema 6\Ejercicios\Ejercicios\.metadata\.plugins\org.eclipse.jdt.core

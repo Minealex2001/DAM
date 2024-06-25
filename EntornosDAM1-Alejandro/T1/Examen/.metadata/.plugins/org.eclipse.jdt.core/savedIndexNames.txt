@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+G:\Mi unidad\DAM\Entornos\T1\Examen\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1716742153.index
+1797878862.index

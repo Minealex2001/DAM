@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".onboarding3Fragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/purple_200">
+       <ImageView
+           android:id="@+id/imagen"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:adjustViewBounds="true"
+           android:src="@drawable/ic_onboarding3"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintBottom_toTopOf="@+id/texto"
+           android:contentDescription="@string/photo" />
+
+       <TextView
+           android:id="@+id/texto"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/discover_the_garlic_soup"
+           android:textColor="#FFFFFF"
+           android:textSize="30sp"
+           app:layout_constraintBottom_toTopOf="@+id/botonSiguiente"
+           app:layout_constraintTop_toBottomOf="@id/imagen"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"/>
+
+       <Button
+           android:id="@+id/botonSiguiente"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:backgroundTint="#FFEB3B"
+           android:text="@string/next"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toBottomOf="@id/texto"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent" />
+
+       <Button
+           android:id="@+id/botonSkip"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/skip"
+           android:textColor="@color/white"
+           app:layout_constraintTop_toBottomOf="@id/botonSiguiente"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

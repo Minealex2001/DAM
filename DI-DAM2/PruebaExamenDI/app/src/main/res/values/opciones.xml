@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actividades">
+        <item>Adventures</item>
+        <item>Guided Visits</item>
+        <item>Trekking</item>
+    </string-array>
+</resources>
